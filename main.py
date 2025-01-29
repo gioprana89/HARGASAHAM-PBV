@@ -127,14 +127,12 @@ st.data_editor(
             "Link Artikel", display_text="Alamat Website"
         ),
 
-        "Sinta": st.column_config.LinkColumn(
-            "Sinta", display_text="Alamat Website"
+        "Link Gambar Kerangka / Sinta": st.column_config.LinkColumn(
+            "Link Gambar Kerangka / Sinta", display_text="Alamat Website"
         ),
 
 
-            "Link Gambar Kerangka": st.column_config.LinkColumn(
-            "Link Gambar Kerangka", display_text="Alamat Website"
-        ),
+       
 
     },
     hide_index=True,
